@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>選擇學校</title>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header></header>
+
+    <div class="main">
+        <div id="container" class="container">
+            <div class="search-bar">
+                <p>選擇學校</p>
+                <div class="search">
+                    <img src="img/search.png" alt="搜尋">
+                    <input type="text" id="search-input" class="search-input" placeholder="搜尋">
+                    <button id="search-btn" class="search-btn"><img src="img/send-message.png" alt=""></button>
+                </div>
+            </div>
+            <div id="schools-group" class="schools-group">
+                <ul id="schools" class="row">
+                    <li class="school col">
+                        <div class="school-bar">
+                            <p class="school-name">國立臺灣大學</p>
+                            <div class="notice-box">
+                                <div class="switch">
+                                    <input class="switch-checkbox" id="NTU_notice" type="checkbox" name="switch-checkbox">
+                                    <label class="switch-label" for="NTU_notice">
+                                        <span class="switch-txt" turnon="開" turnoff="關"></span>
+                                        <span class="switch-Round-btn"></span>
+                                    </label>
+                                </div>
+                                <img class="bell" src="img/bell.png" alt="">
+                            </div>
+                        </div>
+                        <img class="school-logo" src="img/school_logo/NTU.png" alt="NTU">
+                        <a class="school-btn download" href="">
+                            <div>簡章下載</div>
+                        </a>
+                        <a class="school-btn apply" href="./schools/NTU.html">
+                            <div>立即報名</div>
+                        </a>
+                    </li>
+                
+                    <li class="school col">
+                        <div class="school-bar">
+                            <p class="school-name">國立清華大學</p>
+                            <div class="notice-box">
+                                <div class="switch">
+                                    <input class="switch-checkbox" id="NTHU_notice" type="checkbox" name="switch-checkbox">
+                                    <label class="switch-label" for="NTHU_notice">
+                                        <span class="switch-txt" turnon="開" turnoff="關"></span>
+                                        <span class="switch-Round-btn"></span>
+                                    </label>
+                                </div>
+                                <img class="bell" src="img/bell.png" alt="">
+                            </div>
+                        </div>
+                        <img class="school-logo" src="img/school_logo/NTHU.png" alt="NTHU">
+                        <a class="school-btn download" href="">
+                            <div>簡章下載</div>
+                        </a>
+                        <a class="school-btn apply" href="./schools/NTHU.html">
+                            <div>立即報名</div>
+                        </a>
+                    </li>
+                
+                    <li class="school col">
+                        <div class="school-bar">
+                            <p class="school-name">國立陽明交通大學</p>
+                            <div class="notice-box">
+                                <div class="switch">
+                                    <input class="switch-checkbox" id="NYCU_notice" type="checkbox" name="switch-checkbox">
+                                    <label class="switch-label" for="NYCU_notice">
+                                        <span class="switch-txt" turnon="開" turnoff="關"></span>
+                                        <span class="switch-Round-btn"></span>
+                                    </label>
+                                </div>
+                                <img class="bell" src="img/bell.png" alt="">
+                            </div>
+                        </div>
+                        <img class="school-logo" src="img/school_logo/NYCU.png" alt="NYCU">
+                        <a class="school-btn download" href="">
+                            <div>簡章下載</div>
+                        </a>
+                        <a class="school-btn apply" href="./schools/NYCU.html">
+                            <div>立即報名</div>
+                        </a>
+                    </li>
+                
+                    <li class="school col">
+                        <div class="school-bar">
+                            <p class="school-name">國立成功大學</p>
+                            <div class="notice-box">
+                                <div class="switch">
+                                    <input class="switch-checkbox" id="NCKU_notice" type="checkbox" name="switch-checkbox">
+                                    <label class="switch-label" for="NCKU_notice">
+                                        <span class="switch-txt" turnon="開" turnoff="關"></span>
+                                        <span class="switch-Round-btn"></span>
+                                    </label>
+                                </div>
+                                <img class="bell" src="img/bell.png" alt="">
+                            </div>
+                        </div>
+                        <img class="school-logo" src="img/school_logo/NCKU.png" alt="NCKU">
+                        <a class="school-btn download" href="">
+                            <div>簡章下載</div>
+                        </a>
+                        <a class="school-btn apply" href="./schools/NCKU.html">
+                            <div>立即報名</div>
+                        </a>
+                    </li>
+                
+                    <li class="school col">
+                        <div class="school-bar">
+                            <p class="school-name">國立政治大學</p>
+                            <div class="notice-box">
+                                <div class="switch">
+                                    <input class="switch-checkbox" id="NCCU_notice" type="checkbox" name="switch-checkbox">
+                                    <label class="switch-label" for="NCCU_notice">
+                                        <span class="switch-txt" turnon="開" turnoff="關"></span>
+                                        <span class="switch-Round-btn"></span>
+                                    </label>
+                                </div>
+                                <img class="bell" src="img/bell.png" alt="">
+                            </div>
+                        </div>
+                        <img class="school-logo" src="img/school_logo/NCCU.png" alt="NCCU">
+                        <a class="school-btn download" href="">
+                            <div>簡章下載</div>
+                        </a>
+                        <a class="school-btn apply" href="./schools/NCCU.html">
+                            <div>立即報名</div>
+                        </a>
+                    </li>
+                
+                    <li class="school col">
+                        <div class="school-bar">
+                            <p class="school-name">國立中央大學</p>
+                            <div class="notice-box">
+                                <div class="switch">
+                                    <input class="switch-checkbox" id="NCU_notice" type="checkbox" name="switch-checkbox">
+                                    <label class="switch-label" for="NCU_notice">
+                                        <span class="switch-txt" turnon="開" turnoff="關"></span>
+                                        <span class="switch-Round-btn"></span>
+                                    </label>
+                                </div>
+                                <img class="bell" src="img/bell.png" alt="">
+                            </div>
+                        </div>
+                        <img class="school-logo" src="img/school_logo/NCU.png" alt="NCU">
+                        <a class="school-btn download" href="">
+                            <div>簡章下載</div>
+                        </a>
+                        <a class="school-btn apply" href="./schools/NCU.html">
+                            <div>立即報名</div>
+                        </a>
+                    </li>
+                
+                    <li class="school col">
+                        <div class="school-bar">
+                            <p class="school-name">國立中興大學</p>
+                            <div class="notice-box">
+                                <div class="switch">
+                                    <input class="switch-checkbox" id="NCHU_notice" type="checkbox" name="switch-checkbox">
+                                    <label class="switch-label" for="NCHU_notice">
+                                        <span class="switch-txt" turnon="開" turnoff="關"></span>
+                                        <span class="switch-Round-btn"></span>
+                                    </label>
+                                </div>
+                                <img class="bell" src="img/bell.png" alt="">
+                            </div>
+                        </div>
+                        <img class="school-logo" src="img/school_logo/NCHU.png" alt="NCHU">
+                        <a class="school-btn download" href="">
+                            <div>簡章下載</div>
+                        </a>
+                        <a class="school-btn apply" href="./schools/NCHU.html">
+                            <div>立即報名</div>
+                        </a>
+                    </li>
+                
+                    <li class="school col">
+                        <div class="school-bar">
+                            <p class="school-name">國立中山大學</p>
+                            <div class="notice-box">
+                                <div class="switch">
+                                    <input class="switch-checkbox" id="NSYSU_notice" type="checkbox" name="switch-checkbox">
+                                    <label class="switch-label" for="NSYSU_notice">
+                                        <span class="switch-txt" turnon="開" turnoff="關"></span>
+                                        <span class="switch-Round-btn"></span>
+                                    </label>
+                                </div>
+                                <img class="bell" src="img/bell.png" alt="">
+                            </div>
+                        </div>
+                        <img class="school-logo" src="img/school_logo/NSYSU.png" alt="NSYSU">
+                        <a class="school-btn download" href="">
+                            <div>簡章下載</div>
+                        </a>
+                        <a class="school-btn apply" href="./schools/NSYSU.html">
+                            <div>立即報名</div>
+                        </a>
+                    </li>
+                
+                    <li class="school col">
+                        <div class="school-bar">
+                            <p class="school-name">國立中正大學</p>
+                            <div class="notice-box">
+                                <div class="switch">
+                                    <input class="switch-checkbox" id="CCU_notice" type="checkbox" name="switch-checkbox">
+                                    <label class="switch-label" for="CCU_notice">
+                                        <span class="switch-txt" turnon="開" turnoff="關"></span>
+                                        <span class="switch-Round-btn"></span>
+                                    </label>
+                                </div>
+                                <img class="bell" src="img/bell.png" alt="">
+                            </div>
+                        </div>
+                        <img class="school-logo" src="img/school_logo/CCU.png" alt="CCU">
+                        <a class="school-btn download" href="">
+                            <div>簡章下載</div>
+                        </a>
+                        <a class="school-btn apply" href="./schools/CCU.html">
+                            <div>立即報名</div>
+                        </a>
+                    </li>
+                
+                    <li class="school col">
+                        <div class="school-bar">
+                            <p class="school-name">國立臺灣科技大學</p>
+                            <div class="notice-box">
+                                <div class="switch">
+                                    <input class="switch-checkbox" id="NTUST_notice" type="checkbox" name="switch-checkbox">
+                                    <label class="switch-label" for="NTUST_notice">
+                                        <span class="switch-txt" turnon="開" turnoff="關"></span>
+                                        <span class="switch-Round-btn"></span>
+                                    </label>
+                                </div>
+                                <img class="bell" src="img/bell.png" alt="">
+                            </div>
+                        </div>
+                        <img class="school-logo" src="img/school_logo/NTUST.png" alt="NTUST">
+                        <a class="school-btn download" href="">
+                            <div>簡章下載</div>
+                        </a>
+                        <a class="school-btn apply" href="./schools/NTUST.html">
+                            <div>立即報名</div>
+                        </a>
+                    </li>
+                
+                    <li class="school col">
+                        <div class="school-bar">
+                            <p class="school-name">國立臺北科技大學</p>
+                            <div class="notice-box">
+                                <div class="switch">
+                                    <input class="switch-checkbox" id="NTUT_notice" type="checkbox" name="switch-checkbox">
+                                    <label class="switch-label" for="NTUT_notice">
+                                        <span class="switch-txt" turnon="開" turnoff="關"></span>
+                                        <span class="switch-Round-btn"></span>
+                                    </label>
+                                </div>
+                                <img class="bell" src="img/bell.png" alt="">
+                            </div>
+                        </div>
+                        <img class="school-logo" src="img/school_logo/NTUT.png" alt="NTUT">
+                        <a class="school-btn download" href="">
+                            <div>簡章下載</div>
+                        </a>
+                        <a class="school-btn apply" href="./schools/NTUT.html">
+                            <div>立即報名</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="results"></div>
+    <footer></footer>
+</body>
+</html>
